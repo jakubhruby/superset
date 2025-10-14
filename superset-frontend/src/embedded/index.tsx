@@ -44,6 +44,9 @@ import {
 } from './EmbeddedContextProviders';
 import { embeddedApi } from './api';
 import { getDataMaskChangeTrigger } from './utils';
+import { i18nLoadJob } from '../preamble';
+
+await i18nLoadJob;
 
 setupPlugins();
 
